@@ -9,7 +9,7 @@ class App < Sinatra::Base
 		end
 
 			get '/goodbye' do
-				"200 code"
+				erb :goodbye
 			end
 
 end
