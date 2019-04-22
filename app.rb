@@ -13,7 +13,8 @@ class App < Sinatra::Base
 			"Goodbye Joe"
 			end
 
-			get '/date' do 
+			get '/date' do
 				"200 status"
+			end
 
 end
