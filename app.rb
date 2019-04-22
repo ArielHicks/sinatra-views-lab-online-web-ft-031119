@@ -15,6 +15,7 @@ class App < Sinatra::Base
 
 			get '/date' do
 				erb :date
+				"The date is"
 			end
 
 end
