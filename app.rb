@@ -4,5 +4,9 @@ class App < Sinatra::Base
 		erb :index
 	end
 
+	get '/hello' do
+	"200 status code"
+end
+
 
 end
