@@ -15,7 +15,6 @@ class App < Sinatra::Base
 
 			get '/date' do
 				erb :date
-				"200 status"
 			end
 
 end
