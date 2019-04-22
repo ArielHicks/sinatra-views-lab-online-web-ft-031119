@@ -5,7 +5,7 @@ class App < Sinatra::Base
 			end
 
 			get '/hello' do
-			"200 status code"
+			erb :hello
 		end
 
 
